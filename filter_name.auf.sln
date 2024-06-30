@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filter_name.auf", "filter_name.auf.vcxproj", "{72B0CBEA-522E-448E-9369-CA93D9D547A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{250DC070-E23E-489E-B3AA-B986293A7C3A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CREDITS.md = CREDITS.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B0CBEA-522E-448E-9369-CA93D9D547A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{72B0CBEA-522E-448E-9369-CA93D9D547A8}.Debug|x86.Build.0 = Debug|Win32
+		{72B0CBEA-522E-448E-9369-CA93D9D547A8}.Release|x86.ActiveCfg = Release|Win32
+		{72B0CBEA-522E-448E-9369-CA93D9D547A8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC0E1A83-72F6-44F7-8426-12DB397D3FA5}
+	EndGlobalSection
+EndGlobal
