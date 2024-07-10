@@ -8,7 +8,7 @@
 #pragma comment(lib, "detours.4.0.1/detours.lib")
 
 constexpr auto plugin_name = "フィルタ名調整";
-constexpr auto plugin_information = "フィルタ名調整 r1 by 蛇色 / originator 兎 / AviUtl知識共有(Discord)";
+constexpr auto plugin_information = "フィルタ名調整 r2 by 蛇色 / originator 兎 / AviUtl知識共有(Discord)";
 
 std::string format = "{} / アニメーション効果";
 
@@ -110,6 +110,13 @@ namespace set_checkbox_text
 
 			auto object = exin::get_object(object_index);
 			if (!object) throw L"オブジェクトが無効です";
+
+			if (object->index_midpt_leader >= 0)
+			{
+				object_index = object->index_midpt_leader;
+				object = exin::get_object(object_index);
+				if (!object) throw L"中間点リーダーが無効です";
+			}
 #if 0
 			auto filter_id = object->filter_param[filter_index].id;
 			if (filter_id < 0) throw L"フィルタIDが無効です";
